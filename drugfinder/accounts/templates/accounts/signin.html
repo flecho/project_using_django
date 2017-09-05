@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title> Drug Finder's login page. </title>
+</head>
+<h1> login </h1>
+
+<form method='post' action='/accounts/signin/'>
+{% csrf_token %}
+
+EMAIL &nbsp <input type="text" name="email" value="ex)abcd@efg.hijk"><br>
+PASSWORD &nbsp <input type="password" name="password"><br>
+<input type="submit" value="login" name="submit" />
+</form>
+
+
+</html>

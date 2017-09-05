@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title> Drug Finder's signup page. </title>
+</head>
+<h1> Sign up </h1>
+
+<form method='post' action='/accounts/signup/'>
+{% csrf_token %}
+
+EMAIL &nbsp <input type="text" name="email" value="ex)abcd@efg.hijk"><br>
+NAME &nbsp <input type="text" name="name" value="ex)James"><br>
+PASSWORD &nbsp <input type="password" name="password"><br>
+DATE_OF_BIRTH &nbsp <input type="text" name="date_of_birth" value="ex)1991-05-18"><br>
+SEX &nbsp <input type="text" name="sex" value="ex)'M' or 'F'"><br>
+<input type="submit" value="login" name="submit" />
+</form>
+
+
+</html>

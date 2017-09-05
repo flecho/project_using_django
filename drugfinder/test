@@ -1,0 +1,17 @@
+curl -X POST -d "email=joonsang@naver.com&password=wnstkd003!" aitricsdev.com/accounts/obtain_token/
+curl -X POST -d "email=a@a.com&password=1234" aitricsdev.com/accounts/obtain_token/
+
+curl -X POST "Authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Impvb25zYW5nQG5hdmVyLmNvbSIsInVzZXJfaWQiOjEsImVtYWlsIjoiam9vbnNhbmdAbmF2ZXIuY29tIiwiZXhwIjoxNDk5ODIwODE0fQ.boyLyLGm8yXXOydzg81FjQDOT" ec2-52-78-168-195.ap-northeast-2.compute.amazonaws.com:8000/accounts/cp/
+
+
+curl -X POST "Authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Impvb25zYW5nQG5hdmVyLmNvbSIsInVzZXJfaWQiOjEsImVtYWlsIjoiam9vbnNhbmdAbmF2ZXIuY29tIiwiZXhwIjoxNDk5ODIyNDQ3fQ.fGigFiuGk4dy42jIk_UXXIb1gDh5Lhe0MbGskHrxNJ8" ec2-52-78-168-195.ap-northeast-2.compute.amazonaws.com:8000/accounts/cp/
+
+curl -X POST -H "Content-Type: application/json" -d '{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Impvb25zYW5nQG5hdmVyLmNvbSIsInVzZXJfaWQiOjEsImVtYWlsIjoiam9vbnNhbmdAbmF2ZXIuY29tIiwiZXhwIjoxNDk5ODIyNDQ3fQ.fGigFiuGk4dy42jIk_UXXIb1gDh5Lhe0MbGskHrxNJ8"}' http://ec2-52-78-168-195.ap-northeast-2.compute.amazonaws.com:8000/accounts/cp/
+
+curl -H "Authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Impvb25zYW5nQG5hdmVyLmNvbSIsInVzZXJfaWQiOjEsImVtYWlsIjoiam9vbnNhbmdAbmF2ZXIuY29tIiwiZXhwIjoxNDk5ODIyNDQ3fQ.fGigFiuGk4dy42jIk_UXXIb1gDh5Lhe0MbGskHrxNJ8" http://ec2-52-78-168-195.ap-northeast-2.compute.amazonaws.com:8000/accounts/cp/
+
+curl -H "Authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Impvb25zYW5nQG5hdmVyLmNvbSIsInVzZXJfaWQiOjEsImVtYWlsIjoiam9vbnNhbmdAbmF2ZXIuY29tIiwiZXhwIjoxNDk5ODIzMjk1fQ.9biMk3NKKaKNvR7DCn5kY_eN1NbqcXvB5u1bj-Cjj6o" http://ec2-52-78-168-195.ap-northeast-2.compute.amazonaws.com:8000/accounts/cp/
+
+curl -H "Authorization: JWT eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Impvb25zYW5nQG5hdmVyLmNvbSIsInVzZXJfaWQiOjEsImVtYWlsIjoiam9vbnNhbmdAbmF2ZXIuY29tIiwiZXhwIjoxNDk5ODIzODYyfQ.YqWYkFUTpSE4Pe6XnM7vvrAeKPDlQEq1Vsi4AACuH4U" http://ec2-52-78-168-195.ap-northeast-2.compute.amazonaws.com:8000/accounts/cp/
+
+
